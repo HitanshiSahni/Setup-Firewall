@@ -34,7 +34,7 @@ Configure and test basic firewall rules to allow or block network traffic using 
 5. **Test the Blocking Rule Using Telnet**
    ```bash
    telnet localhost 23
-# Expected: Connection refused
+Expected: Connection refused
 
 6. **Allow SSH on Port 22**
    ```bash
