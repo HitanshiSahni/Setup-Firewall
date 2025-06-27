@@ -1,0 +1,5 @@
+In this task, we used UFW (Uncomplicated Firewall) on Ubuntu (via WSL) to control network traffic. We tested how firewall rules affect connectivity by blocking and allowing specific ports.
+
+We blocked port 23, which is used by Telnet — a protocol known for being insecure as it transmits data (including passwords) in plain text. Blocking it helps prevent unauthorized access or attacks.
+
+We also allowed port 22 to permit SSH, which is a secure alternative to Telnet.
